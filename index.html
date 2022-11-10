@@ -58,5 +58,19 @@
       nemo aliquid pariatur quam voluptates animi laudantium, aperiam
       consectetur nobis enim.
     </p>
+
+    <dl x-data="{t1:false}"> 
+      <dt @click ="t1=!t1">Lorem.</dt>
+      <dd x-show="t1">Lorem ipsum dolor sit amet.</dd>
+    </dl>
+    <dl x-data="{t2:false}">
+      <dt @click ="t2=!t2">Sint.</dt>
+      <dd x-show="t2">Quidem commodi corrupti voluptate eaque!</dd>
+    </dl>
+    <dl x-data="{t3:false}">
+      <dt @click ="t3=!t3">Minima.</dt>
+      <dd x-show="t3">Incidunt mollitia ab animi odio?</dd>
+    </dl>
+
   </body>
 </html>
